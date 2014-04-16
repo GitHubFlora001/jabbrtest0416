@@ -844,7 +844,7 @@
         // Initialize the ui, passing the user preferences
         ui.initialize(state.preferences);
 
-        ui.addMessage('Welcome to ' + originalTitle, 'notification');
+        ui.addMessage('Welcome to FOO branch' + originalTitle, 'notification');
         ui.addMessage('Type /help to see the list of commands', 'notification');
 
         connection.hub.start(function () {
